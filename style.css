@@ -71,6 +71,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     font-size: 18px;
     
+    
 }
 
 article section span {
@@ -87,11 +88,6 @@ section img {
     margin-top: 3px;
 }
 
-.github {
-    width: 25px;
-    height: auto;
-}
-
 a {
     text-decoration: none;
     font-size: 18px;
@@ -105,6 +101,7 @@ a {
 
 .link {
     margin-left: 50px;
+
 }
 
 a:hover {
@@ -112,11 +109,18 @@ a:hover {
     color: rgb(211, 48, 8);
 
 }
-.call:hover {
-    font-size: 20px;
-    color: rgb(211, 48, 8);
+
+.img {
+
+    justify-self: center;
 }
 
-br {
-    margin: 2px;
+.link {
+    justify-self: center;
+
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
 }
