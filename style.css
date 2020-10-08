@@ -5,15 +5,15 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 1;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-img {
+article img {
     width: 100px;
     height: auto;
     margin: 10px;
     margin-top: 50px;
-    border-radius: 10px;
+    border-radius: 50px;
     
 }
 
@@ -24,13 +24,17 @@ main {
     margin-top: 300px;
     margin-bottom: 300px;
     /*background-color: rgba(0, 172, 252, 0.527);*/
-    background: linear-gradient(190deg, rgba(0, 172, 252, 0.644), rgba(0, 172, 252, 0.116) 70.71%),
-    linear-gradient(127deg, rgba(212, 95, 236, 0.849), rgba(212, 95, 236, 0.137) 70.71%);
+    background: linear-gradient(190deg, rgb(0, 172, 252), rgba(0, 172, 252, 0.116) 70.71%),
+    linear-gradient(127deg, rgb(212, 95, 236), rgba(212, 95, 236, 0.137) 70.71%);
     border-radius: 10px;
     -webkit-box-shadow:0px 5px 10px #1c1c1c;
     -moz-box-shadow:0px 5px 10px #1c1c1c;
-    box-shadow:0px 5px 10px #1c1c1c
+    box-shadow:0px 5px 10px #1c1c1c;
     
+}
+q {
+    font-size: 20px;
+    margin-left: 5px;
 }
 
 article section {
@@ -63,10 +67,56 @@ footer {
     left: 40.1%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 18px;
+    
 }
 
 article section span {
     text-align: center;
     margin-top: 20px;
+    font-size: 20px;
+}
+
+section img {
+
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.github {
+    width: 25px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+}
+
+.link {
+    margin-left: 50px;
+}
+
+a:hover {
+    font-size: 20px;
+    color: rgb(211, 48, 8);
+
+}
+.call:hover {
+    font-size: 20px;
+    color: rgb(211, 48, 8);
+}
+
+br {
+    margin: 2px;
 }
