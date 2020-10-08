@@ -1,0 +1,72 @@
+body {
+    
+    background: url(Abstract\ Colorful\ Bubbles\ Background\ Vector\ Graphic.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+
+main {
+    width: 500px;
+    height: 300px;
+    margin: 40%;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    /*background-color: rgba(0, 172, 252, 0.527);*/
+    background: linear-gradient(190deg, rgba(0, 172, 252, 0.644), rgba(0, 172, 252, 0.116) 70.71%),
+    linear-gradient(127deg, rgba(212, 95, 236, 0.849), rgba(212, 95, 236, 0.137) 70.71%);
+    border-radius: 10px;
+    -webkit-box-shadow:0px 5px 10px #1c1c1c;
+    -moz-box-shadow:0px 5px 10px #1c1c1c;
+    box-shadow:0px 5px 10px #1c1c1c
+    
+}
+
+article section {
+    display: grid;
+    margin: 10px;
+    align-self: start;
+    float : right;
+    border-bottom-right-radius: 10px;
+    width: 350px ;
+    height: 205px;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: 1;
+    position: absolute;
+    top:300px;
+    left: 40.1%;
+    height: 225px;
+    border-top-left-radius: 10px;
+
+
+}
+
+footer {
+    width: 500px;
+    height: 75px;
+    position: absolute;
+    top: 525px;
+    left: 40.1%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+article section span {
+    text-align: center;
+    margin-top: 20px;
+}
